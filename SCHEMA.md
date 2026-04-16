@@ -43,6 +43,19 @@ sources: [raw/articles/source-name.md]
 - automation
 - graph
 - knowledge-base
+- android
+- gradle
+- startup
+- module
+- dependency
+- security
+- flavor
+- manifest
+- analytics
+- network
+- player
+- ads
+- storage
 
 ## Page Thresholds
 - 同一实体/概念在 2 个以上来源中出现，或在单一来源中处于核心地位时创建独立页面
