@@ -3,6 +3,14 @@
 > DramaWave 工程 LLM Wiki 操作日志。
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-04-17] cleanup | 统一外部 wiki 为 DramaWave 工程知识库
+- 重写 `README.md`，明确仓库定位为 DramaWave 外部 wiki，而非通用 llm-wiki 初始化仓库
+- 删除通用或重复的早期页面：`concepts/llm-wiki-stack.md`、`concepts/prompt-caching.md`、`queries/wiki-bootstrap-status.md`
+- 删除已被新结构替代的 DramaWave 旧版页面：构建架构、代码库总览、模块地图、启动入口、技术栈、风险观察等旧稿
+- 将 `concepts/dramawave-core-deep-dive.md` 迁移到 `archive/dramawave-core-deep-dive.md`，作为历史草稿保留
+- 保留正式结构：`overviews/`、`inventory/`、`modules/`、`flows/`
+- 更新 `index.md`，补充 archive 入口与下一批覆盖优先级
+
 ## [2026-04-16] create | DramaWave LLM Wiki initialized
 - 创建 `docs/llm-wiki/` 结构
 - 新增 `SCHEMA.md`

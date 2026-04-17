@@ -2,7 +2,7 @@
 
 > DramaWave 工程 LLM Wiki 内容索引。
 > 用于快速导航代码库知识、模块 deep dive、运行时链路与工程约束。
-> Last updated: 2026-04-16 | Total pages: 12
+> Last updated: 2026-04-17 | Total pages: 13
 
 ## Overview
 - [[dramawave-overview]] - DramaWave 工程总览，说明分层结构、技术栈、构建方式与知识库使用方式。
@@ -23,3 +23,14 @@
 - [[startup-and-apm-init-flow]] - 启动与 APM 初始化路径，说明应用启动时 APM、播放器、广告等基础能力的接入位置。
 - [[ad-system-overview]] - 广告系统总览，串联 AdSDK、AdManager、AdService、场景/点位与业务调用方式。
 - [[player-system-overview]] - 播放器系统总览，串联 PlayerSDK、PlayerManager、PlayerStateManager 与页面侧接入方式。
+
+## Archive
+- [[dramawave-core-deep-dive]] - 早期 core 综合分析草稿，保留作补充参考；后续内容应逐步拆分并归并到正式 overview/module/flow 页面。
+
+## Next Coverage Priorities
+- `shared_af`：归因系统、AppsFlyer 触发点、安装来源与业务链路
+- `core_network`：Cronet/OkHttp/Retrofit 组合、拦截器链、域名治理与 QUIC
+- `core_mvi`：StateHolder 模型、intent/reduce 模式、页面接入基类
+- `feature_theater`：剧场 tab、榜单/分组内容与播放衔接
+- `shared_user + feature_login`：用户态、登录流、跨模块接口协作
+- `shared_purchase + feature_reward`：付费、订阅、奖励与广告/解锁协作
