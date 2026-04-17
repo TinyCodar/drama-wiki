@@ -15,7 +15,10 @@
 
 ## Modules
 - [[core-apm]] - core_apm deep dive，覆盖 Crashlytics、Firebase Perf、设备评分、LeakCanary/KOOM 与线程治理。
+- [[core-network]] - core_network deep dive，覆盖 Retrofit/OkHttp/Cronet、拦截器链、DDNS、备用域名与 QUIC。
+- [[core-mvi]] - core_mvi deep dive，覆盖 StateHolder、intent DSL、页面观察扩展与 Hilt 基类。
 - [[shared-ad]] - shared_ad deep dive，覆盖广告聚合 SDK、缓存池、场景/点位、平台适配与业务入口。
+- [[shared-af]] - shared_af deep dive，覆盖归因任务编排、AppsFlyer/Meta/Google 来源聚合、首启引导与 fallback 开剧。
 - [[shared-player]] - shared_player deep dive，覆盖播放器包装、LRU 控制器、全局状态机、CDN 重试与下载缓存。
 - [[feature-home-and-play-entry]] - feature_home 播放入口总览，聚焦首页、ForYou、剧集详情与 shared_player 的衔接。
 
@@ -28,9 +31,6 @@
 - [[dramawave-core-deep-dive]] - 早期 core 综合分析草稿，保留作补充参考；后续内容应逐步拆分并归并到正式 overview/module/flow 页面。
 
 ## Next Coverage Priorities
-- `shared_af`：归因系统、AppsFlyer 触发点、安装来源与业务链路
-- `core_network`：Cronet/OkHttp/Retrofit 组合、拦截器链、域名治理与 QUIC
-- `core_mvi`：StateHolder 模型、intent/reduce 模式、页面接入基类
 - `feature_theater`：剧场 tab、榜单/分组内容与播放衔接
 - `shared_user + feature_login`：用户态、登录流、跨模块接口协作
 - `shared_purchase + feature_reward`：付费、订阅、奖励与广告/解锁协作
